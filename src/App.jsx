@@ -1,7 +1,10 @@
 import { useState } from 'react'
 import HomePage from './components/Home';
-
-import DarkModeButton from './utils/DarkModeButton'
+import Manhattan from './components/Manhattan';
+import DarkModeButton from './components/DarkModeButton'
+import StatenIsland from './components/StatenIsland';
+import Brooklyn from './components/Brooklyn';
+import Bronx from './components/Bronx';
 
 
 
@@ -14,6 +17,11 @@ const App = () => {
     <div className={className}>
       <DarkModeButton />
       <HomePage/>
+      <Manhattan/>
+      <StatenIsland/>
+      <Brooklyn/>
+      <Bronx/>
+      <Queens/>
     </div>
   );
 };
