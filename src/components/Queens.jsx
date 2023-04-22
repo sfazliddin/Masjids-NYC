@@ -1,18 +1,11 @@
 import React from "react";
-import QueensMasjids from '../utils/MasjidsInQueens'
 
-const Queens=()=>{
-
-const masjidList=QueensMasjids.map((masjid)=>{
-    return <li key={masjid.id}>{masjid.name}</li>
-})
-
-return(
+const Queens = () => {
+  return (
     <>
-    <h1>Masjids in Queens</h1>
-    <ul>{masjidList}</ul>
+      <h1>Masjids in Queens</h1>
     </>
-)
-}
+  );
+};
 
-export default Queens
+export default Queens;

@@ -1,5 +1,4 @@
-
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const DarkModeButton = () => {
   // State to keep track of whether dark mode is enabled
@@ -17,8 +16,8 @@ const DarkModeButton = () => {
       <style>
         {`
           body {
-            background-color: ${darkModeEnabled ? '#333' : 'inherit'};
-            color: ${darkModeEnabled ? '#fff' : 'inherit'};
+            background-color: ${darkModeEnabled ? "#000" : "inherit"};
+            color: ${darkModeEnabled ? "#fff" : "inherit"};
           }
         `}
       </style>
